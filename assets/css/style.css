@@ -3,3 +3,52 @@ box-sizing: border-box;
 margin: 0;
 padding: 0;
 }
+
+header{
+    height: 100px;
+    background-color: #e579e6;
+}
+
+.jumbo{
+    height: 500px;
+    background-color: #e1d67a;
+    margin: 20px 0;
+}
+
+.main-content{
+    background-color: #0085fe;
+    margin: 20px 0;
+    
+}
+
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.main-content-header{
+    height: 70px;
+    background-color: #abcfe7;
+}
+
+aside, section{
+    float: left;
+    background-color: #abcfe7;
+    margin: 30px 0;
+    height: 450px;
+}
+
+aside{
+    width: 20%;
+}
+
+section{
+    width: 56%;
+    margin: 30px 2%;
+}
+
+footer{
+    height: 80px;
+    background-color: #8801fe;
+}
